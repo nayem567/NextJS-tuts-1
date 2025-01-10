@@ -9,7 +9,7 @@ const ReviewDetail = ({ params }) => {
   return (
     <div>
       <h1>
-        Review {params.reviewId} for Product {params.Id}{" "}
+        Review {params.reviewId} for Product {params.productId}
       </h1>
     </div>
   );
